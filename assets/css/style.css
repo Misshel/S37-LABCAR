@@ -5,24 +5,27 @@
 .navbar{
   margin: 0;
 }
+
 .navbar-toggle{
   float: left;
 }
+
 .flex-align-items-center{
-  display: flex;
   align-items: center;
+  display: flex;
 }
+
 .logo{
   max-width: 13rem;
 }
-@media (min-width: 769px){
+
+@media (min-width: 768px){
   .margin-14 {
-      margin-top: 14px;
+    margin-top: 14px;
   }
   .navbar-nav{
     float: right;
   }
-
   .navbar-nav>li{
     margin: 0 1.5rem;
   }
