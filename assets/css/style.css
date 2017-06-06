@@ -1,7 +1,23 @@
 *{
   box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+/*font-family: 'Open Sans', sans-serif;*/
+h1{
+  font-weight: bold;
 }
 
+img{
+  height: auto;
+  width: 100%;
+}
+section{
+  position: relative;
+  height: 99vh;
+  width: 100%;
+}
+/*Estilos del menu de navegacion*/
 .navbar{
   margin: 0;
 }
@@ -20,6 +36,7 @@
 }
 
 @media (min-width: 768px){
+  /*estilos nav*/
   .margin-14 {
     margin-top: 14px;
   }
@@ -29,4 +46,25 @@
   .navbar-nav>li{
     margin: 0 1.5rem;
   }
+
+  /*estilos hero*/
+  #hero{
+    /*background-position-y: -128rem;*/
+  }
+
+}
+
+/*Estilos para la seccion de hero*/
+#hero{
+background-image: url(../image/taxi.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #f7b617;
+overflow: hidden;
+padding: 17rem 0;
+}
+
+.hero-cont{
+  background-color: #f7b617;
+  padding: 3rem;
 }
